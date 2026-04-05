@@ -1,8 +1,6 @@
 # ASTP-Net
 Asymmetric synaptic plasticity gates θ−γ cognitive rhythms and dictates pathological lock-in
 
-Asymmetric Synaptic Plasticity in Neural Mass Models
-
 License: MIT
 (Note: If the paper is accepted, you can add a link to the published paper here)
 
