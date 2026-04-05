@@ -42,14 +42,14 @@ Step 1: Compile the Fortran Code
 Open your terminal, navigate to the repository directory, and compile your desired model using gfortran with high-level optimization (-O3 is highly recommended for speed):
 
 Bash
-
 gfortran -O3 SpikingNetwork_AsymmetricSTP_Theta.f90 -o sim_asymmetric
+
 Step 2: Run the Simulation
 Execute the compiled binary:
 
 Bash
-
 ./sim_asymmetric
+
 Depending on your CPU, the simulation of 5,000 interacting neurons over 1,000+ ms may take a few minutes. Upon completion, several .dat files will be generated in the same directory.
 
 Step 3: Output Data Description
@@ -59,12 +59,13 @@ atime*.dat: Macroscopic time series (time, global/E/I firing rates, mean voltage
 atheory*.dat: Macroscopic mean-field state variables (e.g., r_e, r_i, v_e, v_i, x_e, x_i).
 av0e*.dat / av0i*.dat: Spike timing data for Excitatory and Inhibitory neurons (used for raster plots).
 acv*.dat: Statistical metrics (Coefficient of Variation, Kuramoto synchronization order parameter ρ).
+
 Step 4: Visualize Results
 Launch Jupyter Notebook and open figure.ipynb:
 
 Bash
-
 jupyter notebook figure.ipynb
+
 Run the cells sequentially. The notebook is configured to read the generated .dat files and plot the bifurcation diagrams, time series, and PAC comodulograms.
 
 📜 License
