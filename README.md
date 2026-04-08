@@ -1,9 +1,6 @@
 # ASTP-Net
 Asymmetric synaptic plasticity gates θ−γ cognitive rhythms and dictates pathological lock-in
 
-License: MIT
-(Note: If the paper is accepted, you can add a link to the published paper here)
-
 This repository contains the custom computational neuroscience code and data analysis scripts for the manuscript:
 
 "Asymmetric synaptic plasticity gates θ−γ cognitive rhythms and dictates pathological lock-in" Submitted to eNeuro (2026).
